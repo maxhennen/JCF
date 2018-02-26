@@ -1,0 +1,9 @@
+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë°öà8òü–,
+dsquid:UselessImportCheck";Remove this unused import 'sun.reflect.generics.tree.Tree'.(ºğ“´8ïø¹‹,
+}squid:UselessImportCheck"ORemove this unused import 'sun.plugin.net.protocol.jar.CachedJarURLConnection'.(‹ƒ«ùÿÿÿÿ8ú´­,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü¿òçûÿÿÿÿ8Ğ“Õ,
+Isquid:S1604"(Make this anonymous inner class a lambda(¶¿¯¡şÿÿÿÿ8Ã”,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(‹ƒ«ùÿÿÿÿ8ú´­,
+Dsquid:S1604"(Make this anonymous inner class a lambda(ºÏ¼Ú8òü–,
