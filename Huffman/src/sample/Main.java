@@ -1,19 +1,18 @@
 package sample;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    private String text = "Een, twee, drie, vier\n" +
+            "Hoedje van, hoedje van\n" +
+            "Een, twee, drie, vier\n" +
+            "Hoedje van papier";
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 600, 600));
-        primaryStage.show();
+        new Huffman(text);
     }
 
 

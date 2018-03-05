@@ -1,5 +1,0 @@
-
-Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Â„âšüÿÿÿÿ
-]squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8¤ ŒŠ,
-Bsquid:S1604"(Make this anonymous inner class a lambda(º—úæÿÿÿÿÿ
-squid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "sorted".(ÅåÕ€ÿÿÿÿÿ8¶½ÕŒ,
