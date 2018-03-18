@@ -11,6 +11,7 @@ package woordenapplicatie.gui;
 import java.awt.*;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Map;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -93,11 +94,11 @@ public class WoordenController implements Initializable {
 
     @FXML
     private void concordatieAction(ActionEvent event) {
-         Map<String,ArrayList<Integer>> concordatie = calc.concordantie(taInput.getText());
+         Map<String,Collection<Integer>> concordatie = calc.concordantie(taInput.getText());
          StringBuilder text = new StringBuilder();
 
          for(String word : concordatie.keySet()){
-          ArrayList<Integer> points = concordatie.get(word);
+          Collection<Integer> points = concordatie.get(word);
           StringBuilder line = new StringBuilder();
           line.append(word + ": " + "[" );
           for(int point : points){

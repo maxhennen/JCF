@@ -54,7 +54,7 @@ public class PerformanceTest
         long startCPUTimeNano = getCpuTime();
         writeFile(thousandWords);
         long taskCPUTime = getCpuTime() - startCPUTimeNano;
-        System.out.println("Write thousand words: " + taskCPUTime/1000000000.0);
+        System.out.println("Write thousand words: " + taskCPUTime/1000000000.0 + " sec");
         readFileThousandWords();
     }
 

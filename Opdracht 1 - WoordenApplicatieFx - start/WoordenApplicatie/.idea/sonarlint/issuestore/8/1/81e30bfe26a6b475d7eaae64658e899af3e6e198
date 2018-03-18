@@ -1,0 +1,7 @@
+
+Bsquid:S1604"(Make this anonymous inner class a lambda(º—úæÿÿÿÿÿ
+xsquid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "sorted".(ÅåÕ€ÿÿÿÿÿ
+msquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÈŠ®$8†ˆ…Ö£,
+Vsquid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(­–ÒÁøÿÿÿÿ8Ôô«Ö£,

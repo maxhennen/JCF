@@ -1,0 +1,49 @@
+
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ƒ¬š¡ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(î×Öÿ
+Rsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ªÒÔ˜8ºÕ£,
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(È‡†‹øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÑ‰˜şÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õü ˜ùÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Í¡ŸÈ
+fsquid:S2259"EA "NullPointerException" could be thrown; "scanner" is nullable here.(ƒµ¹ıÿÿÿÿ8º……Õ£,
+8squid:S1643"Use a StringBuilder instead.(ÄÈºì8º……Õ£,
+Ksquid:S2093"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ8º……Õ£,
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(â„òÜ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(§Î˜Ñ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ò—Ñ®
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Í¡ŸÈ8ºÕ£,
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÎ±
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¾ŠŸ–ùÿÿÿÿ8ºÕ£,
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïç¾‚ÿÿÿÿÿ
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(È‡†‹øÿÿÿÿ8ºÕ£,
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(·ö†8ºÕ£,
+fsquid:S1192"JDefine a constant instead of duplicating this literal " nanosec" 10 times.(î×Öÿ8íÖÕ£,
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ƒ¬š¡ıÿÿÿÿ8ºÕ£,
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëœÇ‰ÿÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¬ú
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¬ú8ºÕ£,
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¾ŠŸ–ùÿÿÿÿ
+Usquid:UselessImportCheck"-Remove this unused import 'org.junit.Assert'.(­ŞL8ºÕ£,
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(˜Ãî8ºÕ£,
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ò—Ñ®8ºÕ£,
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸§÷¨
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(·ö†
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(˜Ãî
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÎ±
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ªÒÔ˜
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8º……Õ£,
+]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(¬¿äü8º……Õ£,
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ó»Ã¹ıÿÿÿÿ8ºÕ£,
+asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ó»Ã¹ıÿÿÿÿ

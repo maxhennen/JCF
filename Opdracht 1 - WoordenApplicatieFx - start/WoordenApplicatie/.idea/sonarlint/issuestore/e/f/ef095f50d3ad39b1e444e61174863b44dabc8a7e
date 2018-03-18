@@ -1,0 +1,8 @@
+
+Fsquid:S1153"1Directly append the argument of String.valueOf().(É°¸­
+rsquid:S1192"XDefine a constant instead of duplicating this literal "Een, twee, drie, vier\n" 5 times.(“áíãøÿÿÿÿ
+Fsquid:S1153"1Directly append the argument of String.valueOf().(·›˜
+Nsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Á°ˆÍúÿÿÿÿ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¸ü—Ö£,
+Nsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(ıŠõÃúÿÿÿÿ
+nsquid:S1192"TDefine a constant instead of duplicating this literal "Hoedje van papier\n" 3 times.(ìıóŞøÿÿÿÿ

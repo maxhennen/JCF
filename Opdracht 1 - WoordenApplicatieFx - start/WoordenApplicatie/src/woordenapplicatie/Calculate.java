@@ -99,7 +99,7 @@ public class Calculate
      */
     public Map<String, Integer> freguentie(String text){
 
-        Map<String, Integer> frequentie = new HashMap<>();
+        Map<String, Integer> frequentie = new TreeMap<>();
 
         for(String word : stringToWordConverter(new ArrayList(),text)){
             frequentie.put(word,frequentie.getOrDefault(word,0)+1);
@@ -127,44 +127,32 @@ public class Calculate
      * @return a map with words and there points where they are standing
      * Complexity: O(N^4)
      */
-    public Map<String,ArrayList<Integer>> concordantie(String text){
-        ArrayList<String> words = (ArrayList<String>) stringToWordConverter(new ArrayList(),text);
-        ArrayList<String> lines = lines(text);
-        ArrayList<Integer> wordInLine = new ArrayList<>();
-        HashMap<String,ArrayList<Integer>> concordantie = new HashMap<>();
+    public Map<String,Collection<Integer>> concordantie(String text){
 
-        for(String word : words){
-            int counter = 0;
-            for(String line : lines){
-                counter++;
-                if(line.contains(word)){
-                    wordInLine.add(counter);
-                    concordantie.put(word,wordInLine);
+        HashMap<String,Collection<Integer>> concordantie = new HashMap<>();
+        StringBuilder builder = new StringBuilder();
+        int line = 1;
+
+        for(char c : (text + ".").toLowerCase().toCharArray()){
+            if(c == ' ' || c == ',' || c == '.' || c == '\n' || c == '\r'){
+                if(c == '\n' || c == '\r'){
+                    line++;
                 }
+                if (builder.length() > 0)
+                {
+                    String word = builder.toString();
+                    System.out.println(word);
+                    if(!concordantie.containsKey(word)){
+                        concordantie.put(word,new ArrayList<>());
+                    }
+                    concordantie.get(word).add(line);
+                }
+                builder = new StringBuilder();
             }
-            wordInLine = new ArrayList<>();
+            else {
+                builder.append(c);
+            }
         }
         return concordantie;
-    }
-
-    public ArrayList<String> lines(String text){
-        StringBuilder line = new StringBuilder();
-        ArrayList<String> lines = new ArrayList<>();
-        for(char character : (text + '\n').toLowerCase().toCharArray())
-        {
-
-            if (character == '\n' || character == '\r')
-            {
-                if (line.length() > 0)
-                {
-                    lines.add(line.toString());
-                    line = new StringBuilder();
-                }
-            } else
-            {
-                line.append(character);
-            }
-        }
-        return lines;
     }
 }
