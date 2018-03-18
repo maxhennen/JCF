@@ -1,9 +1,15 @@
 package sample;
 
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.BitSet;
+import java.util.List;
+
 /**
  * Created by maxhe on 5-3-2018.
  */
-public class Node implements Comparable<Node>
+public class Node implements Comparable<Node>, Serializable
 {
     private char key;
     private int frequency;
@@ -58,6 +64,11 @@ public class Node implements Comparable<Node>
         return key + " has a frequency of " + frequency;
     }
 
+    public boolean isParent(){
+        return leftChild == null && rightChild == null;
+    }
+
+
     /**
      * Compares this object with the specified object for order.  Returns a
      * negative integer, zero, or a positive integer as this object is less
@@ -99,6 +110,6 @@ public class Node implements Comparable<Node>
     @Override
     public int compareTo(Node o)
     {
-        return this.compareTo(o);
+        return frequency - o.getFrequency();
     }
 }
